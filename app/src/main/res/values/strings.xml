@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomiesRecipes</string>
+    <string name="select_recipe_types">Select Recipe Types:</string>
+    <string name="beef_recipes">Beef Recipes</string>
+    <string name="todo">TODO</string>
+    <string name="select_recipe_type">Select Recipe Type:</string>
+    <string name="beef_salpicao">Beef Salpicao</string>
+</resources>
