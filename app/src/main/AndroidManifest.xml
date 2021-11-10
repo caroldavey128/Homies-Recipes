@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HomiesRecipes">
-        <activity android:name=".BeefRecipeSelections"></activity>
-        <activity android:name=".PorkRecipeSelections"></activity>
-        <activity android:name=".ChickenRecipeSelections"></activity>
+        <activity android:name=".DetailedView"></activity>
+        <activity android:name=".BeefRecipeSelections" />
+        <activity android:name=".PorkRecipeSelections" />
+        <activity android:name=".ChickenRecipeSelections" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
