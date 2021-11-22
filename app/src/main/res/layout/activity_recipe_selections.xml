@@ -8,9 +8,11 @@
     tools:context=".BeefRecipeSelections">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="478dp"
-        android:layout_height="55dp"
+        android:layout_width="422dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="85dp"
+        android:layout_marginEnd="15dp"
         android:layout_marginBottom="70dp"
         app:cardBackgroundColor="#D1CBCB"
         app:cardCornerRadius="15dp"
@@ -22,10 +24,12 @@
 
         <SearchView
             android:id="@+id/recipeSearch"
+            style="@android:style/Widget.Material.SearchView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#A6A5A5"
-            android:queryHint="Filter by name..." />
+            android:background="#EDE9E9"
+            android:queryHint="Filter by name..."
+            android:showDividers="end" />
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
